@@ -8,18 +8,11 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
   <title>Upload csv</title>
-  <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
+   <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
-  <link rel="stylesheet" href="<?php echo base_url();?>css/sweetalert.css">
-  <link rel="stylesheet" href="<?php echo base_url();?>css/example.css">
 </head>
 <body>
  <section id="container" class="">

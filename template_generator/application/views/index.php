@@ -10,30 +10,19 @@
 
     <title>Order</title>
 
-    <!-- Bootstrap CSS -->    
-    <link href="/template_generator/css/bootstrap.min.css" rel="stylesheet">
-    <!-- bootstrap theme -->
-    <link href="/template_generator/css/bootstrap-theme.css" rel="stylesheet">
-    <!--external css-->
-    <!-- font icon -->
-    <link href="/template_generator/css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="/template_generator/css/font-awesome.min.css" rel="stylesheet" />
-    <!-- Custom styles -->
-    <link href="/template_generator/css/style.css" rel="stylesheet">
-    <link href="/template_generator/css/Dashboard.css" rel="stylesheet" />
-    <link href="/template_generator/css/bootstrap.css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
-    <link href="/template_generator/css/jquery-ui.css" rel="stylesheet">
-    <link href="/template_generator/css/jquery-ui.min.css" rel="stylesheet">
-    <link href="/template_generator/css/jquery-ui.structure.css" rel="stylesheet">
-    <link href="/template_generator/css/jquery-ui.structure.min.css" rel="stylesheet">
-    <link href="/template_generator/css/jquery-ui.theme.css" rel="stylesheet">
-    <link href="/template_generator/css/jquery-ui.theme.min.css" rel="stylesheet">
-    <link href="/template_generator/css/jquery-ui.css" rel="stylesheet">
-    <link href="/template_generator/css/style-responsive.css" rel="stylesheet" />
-    <link href="/template_generator/css/jquery.dashboard.min.css" rel="stylesheet" />
+   <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
 
-    <link href="/template_generator/css/custom.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
+
+  <link href="<?php echo base_url();?>css/jquery.dataTables.min.css" rel="stylesheet" />
+
+  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
+
+  <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
+
+  <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
+
+ <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -162,5 +151,6 @@
 <script type="text/javascript" src="/template_generator/js/jquery.dataTables.js"></script>
 <script type="text/javascript" src="/template_generator/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="/template_generator/js/bootstrap.min.js"></script>
+<script src="/template_generator/js/jquery.scrollTo.min.js"></script>
 <script src="/template_generator/js/jquery.nicescroll.js" type="text/javascript"></script>
 <script src="/template_generator/js/scripts.js"></script>

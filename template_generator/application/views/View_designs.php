@@ -8,15 +8,10 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
   <title>View Designs</title>
-  <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
   <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
   <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
   <link rel="stylesheet" href="<?php echo base_url();?>css/sweetalert.css">
   <link rel="stylesheet" href="<?php echo base_url();?>css/example.css">
@@ -107,6 +102,27 @@
   </div>
 </aside>
 <div id="main-content">
+  
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="display:none">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="examples">
+              <li class="warning confirm">
+                <div class="ui">
+                  <button class="delete">Delete!</button>
+                </div>
+              </li>
+              <li class="input">
+                <div class="ui">
+                  <button class="update">Edit</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>  -->
     <section class="wrapper" id="custom">
       <div class="alert-box">
           <span style="font-size:20px;">Uploaded Images</span>

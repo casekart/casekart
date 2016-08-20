@@ -2,30 +2,14 @@
 <html lang="en">
 <head>
    <link rel="shortcut icon" href="img/favicon.png">
-
     <title>Login Page</title>
-
-    <!-- Bootstrap CSS -->    
     <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-    <!-- bootstrap theme -->
     <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
-    <!--external css-->
-    <!-- font icon -->
     <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
     <link href="<?php echo base_url();?>css/font-awesome.css" rel="stylesheet" />
-    <!-- Custom styles -->
     <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
     <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
 </head>
-
-  <!-- <body class="login-img3-body"> -->
-
     <div class="container">
       <div class="alert alert-danger" style="display:none;">
         <strong>Please contact admin</strong>

@@ -8,21 +8,10 @@
     <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
     <link rel="shortcut icon" href="img/favicon.png">
     <title>Add models</title>
-    <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
-    <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
-    <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
-    <link href="<?php echo base_url();?>css/jquery-ui.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/jquery-ui.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/jquery-ui.structure.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/jquery-ui.structure.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/jquery-ui.theme.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/jquery-ui.theme.min.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/jquery-ui.css" rel="stylesheet">
-    <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
-    <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
   </head>
   <body>
     
@@ -164,7 +153,8 @@
 </section>
 <script src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
 <script src="<?php echo base_url();?>js/bootstrap.min.js"></script>
-<script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
+<script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script>
+<!--custome script for all page-->
 <script src="<?php echo base_url();?>js/scripts.js"></script>
 <script>
 $(document).ready(function(){
@@ -183,6 +173,7 @@ $(document).ready(function(){
             data:{brand_id : brand_id, model_name : model_name},
             dataType:"json",
             success:function(data){
+              alert(data);
             if(data === "failed"){
             $("div#Nt_exist1").show(2000);
             $("div#Nt_exist1").hide(2000);

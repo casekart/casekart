@@ -9,14 +9,12 @@
   <link rel="shortcut icon" href="img/favicon.png">
 
   <title>Upload Images</title>
-  <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
   <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
+  <title>Add Brands</title>
 </head>
 
 <body>

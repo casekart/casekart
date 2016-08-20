@@ -18,27 +18,11 @@
 
   <title>Order</title>
 
-
-
-  <!-- Bootstrap CSS -->    
-
-  <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- bootstrap theme -->
-
-  <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
-
-  <!--external css-->
-
-  <!-- font icon -->
-
   <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
 
   <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
 
   <link href="<?php echo base_url();?>css/jquery.dataTables.min.css" rel="stylesheet" />
-
-  <!-- Custom styles -->
 
   <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
 
@@ -46,24 +30,7 @@
 
   <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
 
-  <link href="<?php echo base_url();?>css/jquery-ui.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/jquery-ui.min.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/jquery-ui.structure.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/jquery-ui.structure.min.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/jquery-ui.theme.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/jquery-ui.theme.min.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/jquery-ui.css" rel="stylesheet">
-
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
-
-  <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
-
+ <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
 </head>
 
 
@@ -383,8 +350,8 @@
 
 
 
-    <script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
-    
+    <script src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
+
     <script type="text/javascript" src="<?php echo base_url();?>js/custom-order.js"></script>
 
     <script type="text/javascript" src="<?php echo base_url();?>js/jquery.dataTables.js"></script>

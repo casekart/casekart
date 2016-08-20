@@ -8,21 +8,9 @@
   <meta name="author" content="GeeksLabs">
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
-  <link href="<?php echo base_url();?>css/bootstrap.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/bootstrap-theme.css" rel="stylesheet">
   <link href="<?php echo base_url();?>css/elegant-icons-style.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/font-awesome.min.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/style.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/Dashboard.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/bootstrap.css" rel="stylesheet" />
-  <link href="<?php echo base_url();?>css/jquery-ui.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/jquery-ui.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/jquery-ui.structure.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/jquery-ui.structure.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/jquery-ui.theme.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/jquery-ui.theme.min.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/jquery-ui.css" rel="stylesheet">
-  <link href="<?php echo base_url();?>css/style-responsive.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>css/custom.css" rel="stylesheet" />
   <title>Add Brands</title>
 </head>
