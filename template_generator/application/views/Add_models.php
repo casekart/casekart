@@ -164,7 +164,6 @@
 </section>
 <script src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
 <script src="<?php echo base_url();?>js/bootstrap.min.js"></script>
-<script src="<?php echo base_url();?>js/jquery.scrollTo.min.js"></script>
 <script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
 <script src="<?php echo base_url();?>js/scripts.js"></script>
 <script>
@@ -184,7 +183,6 @@ $(document).ready(function(){
             data:{brand_id : brand_id, model_name : model_name},
             dataType:"json",
             success:function(data){
-              alert(data);
             if(data === "failed"){
             $("div#Nt_exist1").show(2000);
             $("div#Nt_exist1").hide(2000);

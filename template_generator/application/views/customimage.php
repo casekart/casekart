@@ -158,17 +158,10 @@
 </section>
 <!-- container section end -->
 <!-- javascripts --> 
-<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
-<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
-<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.js"></script> -->
 <script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>js/ajaxupload.js"></script>
-<script src="<?php echo base_url();?>js/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>js/bootstrap-filestyle.min.js"> </script>
 <script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script>
-<script src="<?php echo base_url();?>js/common.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>js/scripts.js"></script>
 <script>
 $(document).ready(function (e) {

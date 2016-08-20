@@ -157,12 +157,10 @@
   </section>
   <!-- container section end -->
     <!-- javascripts -->
-
-<script type="text/javascript" src="/template_generator/js/jquery-1.12.0.min.js"></script>
+<script src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="/template_generator/js/custom-order.js"></script>
 <script type="text/javascript" src="/template_generator/js/jquery.dataTables.js"></script>
 <script type="text/javascript" src="/template_generator/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="/template_generator/js/bootstrap.min.js"></script>
-<script src="/template_generator/js/jquery.scrollTo.min.js"></script>
 <script src="/template_generator/js/jquery.nicescroll.js" type="text/javascript"></script>
 <script src="/template_generator/js/scripts.js"></script>
