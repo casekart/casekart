@@ -125,22 +125,5 @@
     </section>
   </section>
 </section>
-<script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>js/ajaxupload.js"></script>
-<script src="<?php echo base_url();?>js/jquery.scrollTo.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>js/bootstrap-filestyle.min.js"> </script>
-<script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script>
-<script src="<?php echo base_url();?>js/common.js" type="text/javascript"></script>
-<script src="<?php echo base_url();?>js/scripts.js"></script>
-<script type="text/javascript">
-$.ajax({
-            url:"upload_csv/upload_sampledata",
-            dataType:"json",
-            success:function(data){
-              alert(data);
-            }
-        });
-</script>
 </body>
 </html>

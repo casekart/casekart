@@ -383,8 +383,8 @@
 
 
 
-    <script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.12.0.min.js"></script>
-
+    <script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
+    
     <script type="text/javascript" src="<?php echo base_url();?>js/custom-order.js"></script>
 
     <script type="text/javascript" src="<?php echo base_url();?>js/jquery.dataTables.js"></script>
@@ -392,8 +392,6 @@
     <script type="text/javascript" src="<?php echo base_url();?>js/jquery.dataTables.min.js"></script>
 
     <script type="text/javascript" src="<?php echo base_url();?>js/bootstrap.min.js"></script>
-
-    <script src="<?php echo base_url();?>js/jquery.scrollTo.min.js"></script>
 
     <script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script>
 

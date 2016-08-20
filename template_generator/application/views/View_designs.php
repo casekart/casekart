@@ -107,27 +107,6 @@
   </div>
 </aside>
 <div id="main-content">
-  
-    <!-- <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="display:none">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="examples">
-              <li class="warning confirm">
-                <div class="ui">
-                  <button class="delete">Delete!</button>
-                </div>
-              </li>
-              <li class="input">
-                <div class="ui">
-                  <button class="update">Edit</button>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>  -->
     <section class="wrapper" id="custom">
       <div class="alert-box">
           <span style="font-size:20px;">Uploaded Images</span>
@@ -147,10 +126,8 @@
   </section>
 </div>
 </section>
-<script type="text/javascript" src="<?php echo base_url();?>js/jquery-1.12.0.min.js"></script>
+<script src="<?php echo base_url();?>js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>js/bootstrap.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url();?>js/ajaxupload.js"></script>
-<script src="<?php echo base_url();?>js/jquery.scrollTo.min.js"></script>
 <script src="<?php echo base_url();?>js/jquery.nicescroll.js" type="text/javascript"></script>
 <script src="<?php echo base_url();?>js/sweetalert-dev.js"></script>
 <script>
