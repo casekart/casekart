@@ -7,7 +7,7 @@ class Logout extends CI_Controller
 		$this->output->set_header('Pragma: no-cache');
 		$this->output->set_header("Expires: Mon, 26 Jul 1997 05:00:00 GMT"); 
 		$this->session->sess_destroy();
-		redirect('http://localhost/casekart_combine/admin','refresh');
+		redirect('http://localhost/casekart/admin','refresh');
 	}
 }
  ?>

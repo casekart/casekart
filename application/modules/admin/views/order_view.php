@@ -266,7 +266,7 @@
                       echo "<tr>";
                       echo "<td>$i</td>";
                       // echo "<td>"+count($path)+"</td>";
-                      echo "<td><img src='http://localhost/casekart_combine/".$path[$i]."'height=100;width=100></td>";
+                      echo "<td><img src='http://localhost/casekart/".$path[$i]."'height=100;width=100></td>";
                       echo "<td>".$model_name[$i]."</td>";
                       echo "<td>".$mprice[$i]."</td>";
                       echo "<td>".$iprice[$i]."</td>";

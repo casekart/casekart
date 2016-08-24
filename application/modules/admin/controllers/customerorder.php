@@ -118,7 +118,7 @@ class Customerorder extends CI_Controller {
 				}
 			}
 		}
-		if(!$this->session->userdata('fullname')){
+		if(!$this->session->userdata('username')){
 			$this->load->view('login_view');
 		}
 		else{
