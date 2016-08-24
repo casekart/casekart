@@ -11,7 +11,9 @@ $this->load->model('upload_csv_model');
     
 }
 public function index()
-{	$this->load->helper('url');
+
+{	
+	$this->load->helper('url');
 	if(!$this->session->userdata('username')){
 	$this->load->view('login_view');
 	}
