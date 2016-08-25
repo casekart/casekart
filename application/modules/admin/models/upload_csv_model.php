@@ -1,4 +1,4 @@
-<?php
+ <?php
 class Upload_csv_model extends CI_Model
 {
   function __construct()
@@ -23,7 +23,6 @@ class Upload_csv_model extends CI_Model
        $insert_csv['img_name'] = $csv_line[3];
        $insert_csv['img_path'] = $csv_line[4];
        $insert_csv['img_price'] = $csv_line[5];
-        // print_r(array_slice($insert_csv,1));
    }
      $data = array(
        'img_id' => $insert_csv['img_id'] ,
@@ -36,7 +35,8 @@ class Upload_csv_model extends CI_Model
    }
    fclose($fp) or die("can't close file");
    $data['success']="success";
-   echo "file hasbeen successfully uploaded!";
+   // echo "file hasbeen successfully uploaded!";
+   redirect('http://localhost/casekart/admin/upload_csv');
    // echo json_encode("success");
    return $data;
  }

@@ -101,10 +101,10 @@
               Select and Upload csv files
             </header>
       <div class="panel-body">
-        <form role="form" action="upload_csv/upload_sampledata" method="post" enctype="multipart/form-data" name="form1" id="form1"> 
+        <form role="form" action="upload_csv/upload_sampledata" method="post" enctype="multipart/form-data" name="form1" id="form1" > 
                <label>Choose your file</label>
           <div class="form-group">
-         <input value="#images" type="file"   data-input="false" name="userfile" id="image" multiple>
+         <input value="#images" type="file"   data-input="false" name="userfile" id="image" accept=".csv"multiple required>
           </div>
           <div class="form-group">    
             <button type="submit" name="submit" class="btn btn-info">Save</button>

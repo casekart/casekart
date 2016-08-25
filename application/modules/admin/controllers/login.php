@@ -48,10 +48,11 @@ class login extends CI_Controller
                          // $this->session->set_userdata($sessiondata);
                          $this->load->library('user_agent');
                          $this->agent->referrer();
-                         if($_SERVER['HTTP_REFERER'] == base_url().'admin'){
+                         if($_SERVER['HTTP_REFERER'] == base_url().'admin/' || $_SERVER['HTTP_REFERER'] == base_url().'admin'){
                               // echo $_SERVER['HTTP_REFERER'];
-                         // $this->session->set_userdata($sessiondata);
+                         $this->session->set_userdata($sessiondata);
                          redirect("http://localhost/casekart/admin/customerorder");
+                         echo "hi";
 
                                    }
                                    else{
