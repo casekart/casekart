@@ -12,8 +12,9 @@ class login extends CI_Controller
           $this->load->helper('html');
           $this->load->database();
           $this->load->library('form_validation');
-          //load the login model
           $this->load->model('login_model');
+          $this->load->library('user_agent');
+
      }
 
      public function index()
@@ -44,19 +45,34 @@ class login extends CI_Controller
                         $sessiondata = array(
                               'username' => $username,
                          );
-                         $this->session->set_userdata($sessiondata);
-                         redirect("http://localhost/casekart_combine/admin/customerorder");
+                         // $this->session->set_userdata($sessiondata);
+                         $this->load->library('user_agent');
+                         $this->agent->referrer();
+                         if($_SERVER['HTTP_REFERER'] == base_url().'admin'){
+                              // echo $_SERVER['HTTP_REFERER'];
+                         // $this->session->set_userdata($sessiondata);
+                         redirect("http://localhost/casekart/admin/customerorder");
+
+                                   }
+                                   else{
+                                        $this->session->set_userdata($sessiondata);
+                                        $this->load->library('user_agent');
+                                        $this->agent->referrer();
+                                        redirect($_SERVER['HTTP_REFERER'],'refresh');
+                                        // redirect("http://localhost/casekart/admin/customerorder");
+
+                                   }
                     }
                     else
                     {
                          $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">Invalid username and password!</div>');
-                         redirect('http://localhost/casekart_combine/admin');
-                         // echo "hi";
+                         redirect('http://localhost/casekart/admin');
+                         echo "hi";
                     }
                }
                else
                {
-                    redirect('http://localhost/casekart_combine/admin');
+                    redirect('http://localhost/casekart/admin');
                }
           }
      }

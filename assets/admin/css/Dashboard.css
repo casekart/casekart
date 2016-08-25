@@ -12,17 +12,17 @@
 }
 .border {
   border: 1px solid #D8D8D8;
-  background-image: url(http://localhost/casekart/template_generator/img/tickmark.jpg);
+  background-image: url(http://localhost/casekart/assets/admin/img/tickmark.jpg);
 }
 .selected {
-  background-image:url(http://localhost/casekart/template_generator/img/tickmark.jpg);
+  background-image:url(http://localhost/casekart/assets/admin/img/tickmark.jpg);
   background-size: 26px;
   background-position: 0% -1%;; 
   background-repeat: no-repeat;
   text-align: center;
 }
 .selected1 {
-  background-image:url(http://localhost/casekart/template_generator/img/cross.png);
+  background-image:url(http://localhost/casekart/assets/admin/img/tickmark.jpg);
   background-size: 26px;
   background-position: 0% -1%;; 
   background-repeat: no-repeat;

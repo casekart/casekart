@@ -13,6 +13,8 @@
   <link href="<?php echo base_url();?>assets/admin/css/elegant-icons-style.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>assets/admin/css/style.css" rel="stylesheet">
   <link href="<?php echo base_url();?>assets/admin/css/bootstrap.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>assets/admin/css/style-responsive.css" rel="stylesheet" />
+  <link href="<?php echo base_url();?>assets/admin/css/font-awesome.min.css" rel="stylesheet" />
   <link href="<?php echo base_url();?>assets/admin/css/custom.css" rel="stylesheet" />
   <title>Add Brands</title>
 </head>

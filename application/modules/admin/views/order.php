@@ -230,7 +230,7 @@
                     <i class="fa fa-cloud-download"></i>
                     <div class="count"></div>
                     <div class="title">Download</div>   
-                     <a class="style" href="admin/customerorder/ExportCSV">Click me to Download full order details</a>       
+                     <a class="style" href="customerorder/ExportCSV">Click me to Download full order details</a>       
                   </div><!--/.info-box-->     
                 </div><!--/.col-->
                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -327,7 +327,7 @@
       $.ajax({
         url:'customerorder/widgets',
         dataType:'json',
-        // type:'POST',
+        type:'POST',
         success:function(data){
           $.each(data,function(index,value){
             if(index == 'orders'){

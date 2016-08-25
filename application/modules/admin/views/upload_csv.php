@@ -104,7 +104,6 @@
         <form role="form" action="upload_csv/upload_sampledata" method="post" enctype="multipart/form-data" name="form1" id="form1"> 
                <label>Choose your file</label>
           <div class="form-group">
-         <!--  <input type="file" value="#images" class="form-control" name="userfile" id="image"  align="center"/> -->
          <input value="#images" type="file"   data-input="false" name="userfile" id="image" multiple>
           </div>
           <div class="form-group">    
@@ -119,5 +118,11 @@
     </section>
   </section>
 </section>
+<script src="<?php echo base_url();?>assets/admin/js/jquery.js"></script>
+<script src="<?php echo base_url();?>assets/admin/js/jquery-1.9.1.js"></script>
+<script src="<?php echo base_url();?>assets/admin/js/jquery-ui.js"></script>
+<script src="<?php echo base_url();?>assets/admin/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url();?>assets/admin/js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
+<script src="<?php echo base_url();?>assets/admin/js/scripts.js"></script>
 </body>
 </html>
