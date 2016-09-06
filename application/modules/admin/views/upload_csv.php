@@ -115,6 +115,11 @@
       </div>
       </div>
       </div>
+  <?php if($this->session->flashdata('message')){?>
+  <div class="alert alert-success">      
+    <?php echo $this->session->flashdata('message')?>
+  </div>
+<?php } ?>
     </section>
   </section>
 </section>

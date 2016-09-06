@@ -20,17 +20,6 @@
 </head>
 
 <body>
-  <script type="text/javascript">
-  function noBack()
-  {
-   window.history.forward()
- }
- noBack();
- window.onload = noBack;
- window.onpageshow = function(evt) { if (evt.persisted) noBack() }
- window.onunload = function() { void (0) }
- window.preventDefault;
- </script>
  <section id="container" class="">
 
 
@@ -51,7 +40,7 @@
         <li class="dropdown">
           <a data-toggle="dropdown" class="dropdown-toggle" href="#">
             <span class="profile-ava">
-              <img alt="" src="img/avatar1_small.jpg">
+              <!-- <img alt="" src="img/avatar1_small.jpg"> -->
             </span>
             <span class="username">Welcome <?php echo $this->session->userdata('username');?>!</span>
             <b class="caret"></b>

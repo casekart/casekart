@@ -12,7 +12,7 @@ class Upload_csv_model extends CI_Model
   {
 
     $fp = fopen($_FILES['userfile']['tmp_name'],'r') or die("can't open file");
-    while($csv_line = fgetcsv($fp,10000))
+    while($csv_line = fgetcsv($fp,10000,'\n'))
     {
       for ($i = 0, $j = count($fp); $i < $j; $i++) 
       {
@@ -23,6 +23,7 @@ class Upload_csv_model extends CI_Model
        $insert_csv['img_name'] = $csv_line[3];
        $insert_csv['img_path'] = $csv_line[4];
        $insert_csv['img_price'] = $csv_line[5];
+       // print_r(array_slice($insert_csv,0));
    }
      $data = array(
        'img_id' => $insert_csv['img_id'] ,
@@ -31,13 +32,14 @@ class Upload_csv_model extends CI_Model
        'img_name' => $insert_csv['img_name'] ,
        'img_path' => $insert_csv['img_path'],
        'img_price' => $insert_csv['img_price'],);
-     $data['crane_features']=$this->db->insert('image_gallery', $data);
+     // $this->db->set(array_slice($insert_csv,1,5));
+     $data['crane_features'] =$this->db->insert('image_gallery',$data);
    }
    fclose($fp) or die("can't close file");
    $data['success']="success";
    // echo "file hasbeen successfully uploaded!";
-   redirect('http://localhost/casekart/admin/upload_csv');
+   // redirect('http://localhost/casekart/admin/upload_csv');
    // echo json_encode("success");
-   return $data;
+   return true;
  }
 }

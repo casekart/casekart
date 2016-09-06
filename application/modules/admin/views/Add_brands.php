@@ -15,17 +15,6 @@
   <title>Add Brands</title>
 </head>
 <body>
-<script type="text/javascript">
-        function noBack()
-         {
-             window.history.forward()
-         }
-        noBack();
-        window.onload = noBack;
-        window.onpageshow = function(evt) { if (evt.persisted) noBack() }
-        window.onunload = function() { void (0) }
-        window.preventedDefault;
-    </script>
  <section id="container" class="">
 
 
@@ -50,7 +39,7 @@
           <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
               <span class="profile-ava">
-                <img alt="" src="img/avatar1_small.jpg">
+                <!-- <img alt="" src="img/avatar1_small.jpg"> -->
               </span>
               <span class="username">Welcome <?php echo $this->session->userdata('username');?>!</span>
               <b class="caret"></b>
@@ -137,7 +126,7 @@
                 </div>
               </div>
               <button type="submit" class="btn btn-primary" value="submit" id="submit">Submit</button>
-              <button class="btn btn-primary" id="submit">Cancel</button>
+              <!-- <button class="btn btn-primary" id="submit">Cancel</button> -->
             </form>
           </div>
         </div>
@@ -145,7 +134,6 @@
     </section>
   </section>
 </section>
-
 <script src="<?php echo base_url();?>assets/admin/js/jquery.js"></script>
 <script src="<?php echo base_url();?>assets/admin/js/jquery-1.9.1.js"></script>
 <script src="<?php echo base_url();?>assets/admin/js/jquery-ui.js"></script>
