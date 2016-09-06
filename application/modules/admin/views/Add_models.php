@@ -14,18 +14,6 @@
   <link href="<?php echo base_url();?>assets/admin/css/custom.css" rel="stylesheet" />
   </head>
   <body>
-    
-<script type="text/javascript">
-        function noBack()
-         {
-             window.history.forward()
-         }
-        noBack();
-        window.onload = noBack;
-        window.onpageshow = function(evt) { if (evt.persisted) noBack() }
-        window.onunload = function() { void (0) }
-        window.preventDefault;
-    </script>
      <section id="container" class="">
       <header class="header dark-bg">
             <div class="toggle-nav">
@@ -40,7 +28,7 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
-                                <img alt="" src="img/avatar1_small.jpg">
+                                <!-- <img alt="" src="img/avatar1_small.jpg"> -->
                             </span>
                             <span class="username">Welcome <?php echo $this->session->userdata('username');?>!</span>
                             <b class="caret"></b>
@@ -144,7 +132,7 @@
                   </div>
                     <div class="form-group">
                   <button class="btn btn-primary" id="submit">Submit</button>
-                  <button class="btn btn-primary" id="submit">Cancel</button>
+                  <!-- <button class="btn btn-primary" id="submit">Cancel</button> -->
                 </div>
               </form>
           </div>

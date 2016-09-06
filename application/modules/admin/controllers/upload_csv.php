@@ -23,9 +23,11 @@ public function index()
 }
 function upload_sampledata()
 {
+
 $data['result']=$this->upload_csv_model->upload_sampledata_csv();
-// echo $data['result'];
-$this->load->view('upload_csv',$data);
-// header("location: localhost/casekart/template_generator/index.php/upload_csv");
+$this->session->set_flashdata('message',"Data Inserted Successfully");
+// echo json_encode("success");
+redirect('http://localhost/casekart/admin/upload_csv');
+
 }
 }

@@ -163,7 +163,7 @@ $this->load->helper('download');
 $delimiter = ",";
 $newline = "\r\n";
 $filename = "order.csv";
-$query = "SELECT * FROM image_gallery";
+$query = "SELECT * FROM order_particulars where order_id=$_GET[id]";
 $result = $this->db->query($query);
 $data = $this->dbutil->csv_from_result($result, $delimiter, $newline);
 force_download($filename, $data);
